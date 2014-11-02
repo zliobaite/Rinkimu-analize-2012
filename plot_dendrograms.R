@@ -9,7 +9,7 @@ Sys.setlocale(loc="lt_LT.UTF-8")
 
 patekusiu_partiju_numeriai <- c(1,3,5,6,7,8,9)
 patekusiu_partiju_kodai <- c('ls','dp','ts','dk','le','sd','tt')
-patekusiu_partiju_pavadinimai <- c('Liberalu sajudis','Darbo partija','Tevynes sajunga','Drasos kelias','Lenku rinkimu akcija','Socialdemokratu partija','Tvarka ir teisingumas');
+patekusiu_partiju_pavadinimai <- c('Liberalų sąjudis','Darbo partija','Tėvynės sąjunga','Drąsos kelias','Lenkų rinkimų akcija','Socialdemokratų partija','Tvarka ir teisingumas');
 
 name_file_name <- paste('3_data/raw_data/','Seimo rinkimai 2012- Kandidat- partijos ir numeriai num.csv',sep='')
 vardai <- read.csv(name_file_name, header = FALSE)
